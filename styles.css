@@ -1,0 +1,86 @@
+:root {
+  --primary-color: #455e28;
+  --width-break: 600px;
+}
+
+main {
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+}
+
+body {
+  font-family: "Kalam", cursive;
+  color: #131313;
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+nav {
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+  font-family: "Kalam", cursive;
+}
+
+button {
+  background-color: var(--primary-color);
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-family: "Kalam", cursive;
+  font-size: large;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+#translate-output {
+  padding: 2rem;
+  font-size: large;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 20vh;
+  overflow: scroll;
+  border: 1px solid black;
+  margin-bottom: 2rem;
+}
+
+#about {
+  font-size: x-large;
+  text-align: center;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+footer p {
+  max-width: var(--width-break);
+  margin: auto;
+}
